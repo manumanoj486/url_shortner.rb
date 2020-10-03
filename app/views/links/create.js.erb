@@ -1,0 +1,8 @@
+var lookUpCode = "<%= @link.lookup_code %>"
+
+var html = "<%= j render 'link' , link: @link.shorted_url %>"
+console.log(lookUpCode)
+
+element = document.getElementById("short-link")
+
+element.innerHTML = html
