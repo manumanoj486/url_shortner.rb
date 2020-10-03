@@ -6,7 +6,7 @@ development: &default
 
 production:
   <<: *default
-  constant1:  "overriden value1"
+  constant1:  "overriden value1e"
   
 test:
   <<: *default
